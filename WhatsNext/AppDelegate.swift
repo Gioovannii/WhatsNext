@@ -21,6 +21,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         popover.contentSize = NSSize(width: 400, height: 400)
         popover.contentViewController = NSHostingController(rootView: contentView)
         
+        NSEvent.addGlobalMonitorForEvents(matching: [.leftMouseDown, .rightMouseDown]) { [weak self] event in
+            guard let self = self else { return }
+            
+            if self.popover.isShown {
+                self.hidePopover(event)
+            }
+        }
     }
     
     func showPopover() {

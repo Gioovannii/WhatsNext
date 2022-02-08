@@ -12,6 +12,8 @@
 		7BA9E91027B2007400499092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9E90F27B2007400499092 /* Assets.xcassets */; };
 		7BA9E91327B2007400499092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA9E91227B2007400499092 /* Preview Assets.xcassets */; };
 		7BA9E91B27B200D300499092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9E91A27B200D300499092 /* AppDelegate.swift */; };
+		7BA9E91E27B2105500499092 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9E91D27B2105500499092 /* EventRow.swift */; };
+		7BA9E92027B210E900499092 /* EventSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA9E91F27B210E900499092 /* EventSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		7BA9E91427B2007400499092 /* WhatsNext.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhatsNext.entitlements; sourceTree = "<group>"; };
 		7BA9E91A27B200D300499092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BA9E91C27B208A800499092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7BA9E91D27B2105500499092 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		7BA9E91F27B210E900499092 /* EventSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			children = (
 				7BA9E91C27B208A800499092 /* Info.plist */,
 				7BA9E90B27B2007300499092 /* WhatsNextApp.swift */,
-				7BA9E90D27B2007300499092 /* ContentView.swift */,
 				7BA9E91A27B200D300499092 /* AppDelegate.swift */,
+				7BA9E90D27B2007300499092 /* ContentView.swift */,
+				7BA9E91D27B2105500499092 /* EventRow.swift */,
+				7BA9E91F27B210E900499092 /* EventSection.swift */,
 				7BA9E90F27B2007400499092 /* Assets.xcassets */,
 				7BA9E91427B2007400499092 /* WhatsNext.entitlements */,
 				7BA9E91127B2007400499092 /* Preview Content */,
@@ -146,7 +152,9 @@
 			files = (
 				7BA9E91B27B200D300499092 /* AppDelegate.swift in Sources */,
 				7BA9E90E27B2007300499092 /* ContentView.swift in Sources */,
+				7BA9E92027B210E900499092 /* EventSection.swift in Sources */,
 				7BA9E90C27B2007300499092 /* WhatsNextApp.swift in Sources */,
+				7BA9E91E27B2105500499092 /* EventRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

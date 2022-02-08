@@ -16,6 +16,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem?.button?.title = "What's next?"
         statusItem?.button?.target = self
         statusItem?.button?.action = #selector(tooglePopover)
+        
+        let contentView = ContentView()
+        popover.contentSize = NSSize(width: 400, height: 400)
+        popover.contentViewController = NSHostingController(rootView: contentView)
+        
     }
     
     func showPopover() {
